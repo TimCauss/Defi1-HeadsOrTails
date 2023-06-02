@@ -8,5 +8,6 @@ button[0].addEventListener("click", () => {
 function pileOuFace() {
   let resultText = ["Heads", "Tails"];
   let random = Math.floor(Math.random() * resultText.length);
+  console.log(resultText[random]);
   result[0].innerHTML += resultText[random] + "<br>";
 }
